@@ -87,6 +87,11 @@ div {
     display: flex;
 }
 
+.text:hover .letter,
+.text.play .letter {
+    transform: translateY(-100%);
+}
+
 .text .letter {
     display: inline-block;
     transition: transform .6s cubic-bezier(0.76, 0, 0.024, 1);
